@@ -1,0 +1,60 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Play",
+            "id": "b41be153-ad15-4904-8bc6-1df50c4077b6",
+            "actions": [
+                {
+                    "name": "Touch1",
+                    "type": "Value",
+                    "id": "565c448e-d083-4642-a119-be04190e145c",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touch2",
+                    "type": "Value",
+                    "id": "efde7206-bda4-4354-bd20-0c65c106ebe3",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "eaf13356-91b5-486c-b421-85fbd8851a0c",
+                    "path": "<Touchscreen>/touch0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eefbce46-38f6-46c4-a811-e134b4f7ffdb",
+                    "path": "<Touchscreen>/touch1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "a2bcf32d-c883-47a3-9c5c-670a8767e871",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
